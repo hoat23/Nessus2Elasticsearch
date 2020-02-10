@@ -54,6 +54,20 @@ If want load in another index just change the next line code:
 rpt = elk.post_bulk(bucket_documents,header_json={"index":{"_index":"nessus-analytics","_type":"_doc"}})
 ```
 
+### For errors of parsing
+
+For a specific type of encoding add <encoding="utf-8"> to parser.py from NessusParser library.
+```
+    @classmethod
+    def parse_fromfile(cls, nessus_report_path, data_type="XML", strict=False):
+        try:
+            with open(nessus_report_path, 'r', encoding="utf-8") as fileobj:
+                fdata = fileobj.read()
+                rval = cls.parse(fdata, data_type, strict)
+        except IOError:
+            raise
+        return rval
+```
 ### Additional libraries 
 
 + utils, credentials, elastic
