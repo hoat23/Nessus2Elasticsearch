@@ -1,0 +1,207 @@
+{
+  "order": 0,
+  "version": 2,
+  "index_patterns": [
+    "nessusdata-*"
+  ],
+  "settings": {},
+  "mappings": {
+    "_default_": {
+      "dynamic_templates": [
+        {
+          "string_as_keyword": {
+            "match_mapping_type": "string",
+            "mapping": {
+              "type": "keyword",
+              "doc_values": "true"
+            }
+          }
+        }
+      ],
+      "properties": {
+        "compliancereference": {
+          "properties": {
+            "800-53": {
+              "type": "keyword",
+              "doc_values": "true"
+            },
+            "ISO/IEC-27001": {
+              "type": "keyword",
+              "doc_values": "true"
+            },
+            "PCI-DSSv3.1": {
+              "type": "keyword",
+              "doc_values": "true"
+            },
+            "PCI-DSSv3.2": {
+              "type": "keyword",
+              "doc_values": "true"
+            },
+            "800-171": {
+              "type": "keyword",
+              "doc_values": "true"
+            },
+            "CSF": {
+              "type": "keyword",
+              "doc_values": "true"
+            },
+            "ITSG-33": {
+              "type": "keyword",
+              "doc_values": "true"
+            },
+            "SWIFT-CSCv1": {
+              "type": "keyword",
+              "doc_values": "true"
+            },
+            "CSCv6": {
+              "type": "keyword",
+              "doc_values": "true"
+            },
+            "TBA-FIISB": {
+              "type": "keyword",
+              "doc_values": "true"
+            },
+            "CN-L3": {
+              "type": "keyword",
+              "doc_values": "true"
+            },
+            "SIP": {
+              "type": "keyword",
+              "doc_values": "true"
+            },
+            "HIPAA": {
+              "type": "keyword",
+              "doc_values": "true"
+            },
+            "LEVEL": {
+              "type": "keyword",
+              "doc_values": "true"
+            }
+          }
+        },
+        "pluginname": {
+          "type": "text"
+        },
+        "hostip": {
+          "type": "ip"
+        },
+        "complianceresult": {
+          "type": "text"
+        },
+        "description": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "complianceinfo": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "hostscanstart": {
+          "format": "yyyy-MM-dd HH:mm:ss",
+          "type": "date"
+        },
+        "plugintype": {
+          "type": "text"
+        },
+        "complianceseealso": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "hostname": {
+          "type": "text"
+        },
+        "protocol": {
+          "type": "text"
+        },
+        "pluginoutput": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "solution": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "hostmacaddress": {
+          "type": "text"
+        },
+        "compliancecheckname": {
+          "type": "text"
+        },
+        "hostfqdn": {
+          "type": "text"
+        },
+        "severity": {
+          "type": "long"
+        },
+        "complianceauditfile": {
+          "type": "text"
+        },
+        "riskfactor": {
+          "type": "text"
+        },
+        "pluginid": {
+          "type": "long"
+        },
+        "synopsis": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "svc_name": {
+          "type": "text"
+        },
+        "@timestamp": {
+          "format": "yyyy-MM-dd HH:mm:ss",
+          "type": "date",
+          "doc_values": true
+        },
+        "port": {
+          "type": "long"
+        },
+        "compliance": {
+          "type": "boolean"
+        },
+        "credentialedscan": {
+          "type": "boolean"
+        },
+        "pluginfamily": {
+          "type": "text"
+        },
+        "hostscanend": {
+          "format": "yyyy-MM-dd HH:mm:ss",
+          "type": "date"
+        }
+      }
+    }
+  },
+  "aliases": {}
+}
