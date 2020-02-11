@@ -59,7 +59,7 @@ rpt = elk.post_bulk(bucket_documents,header_json={"index":{"_index":"nessus-anal
 For a specific type of encoding add <encoding="utf-8"> to parser.py from NessusParser library.
 
 ```
-#Path: C:/Python34/Lib/site-packages/libnessu/parser.py
+#Path: C:/Python34/Lib/site-packages/libnessus/parser.py
     ...
     @classmethod
     def parse_fromfile(cls, nessus_report_path, data_type="XML", strict=False):
