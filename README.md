@@ -72,7 +72,7 @@ For a specific type of encoding add <encoding="utf-8"> to parser.py from NessusP
         return rval
    ...     
 ```
-### Estructure of Nessus file
+### Structure of Nessus file
 ```
 NessusClientData_v2
   - Policy
