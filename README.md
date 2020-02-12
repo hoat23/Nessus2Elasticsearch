@@ -72,6 +72,79 @@ For a specific type of encoding add <encoding="utf-8"> to parser.py from NessusP
         return rval
    ...     
 ```
+### Estructure of Nessus file
+```
+NessusClientData_v2
+  - Policy
+      - FamilySelection
+        - FamilyItem
+        [
+          - FamilyName
+          - Status
+        ]
+      - IndividualPluginSelection
+        - PluginItem
+        [
+          - Family
+          - PluginId
+          - PluginName
+          - Status
+        ]
+      - Preferences
+        - PluginsPreferences
+          - item
+          [
+            - fullName
+            - pluginId
+            - pluginName
+            - preferenceName
+            - preferenceType
+            - preferenceValues
+            - selectedValue
+          ]
+        - ServerPreferences
+          - preference
+          [
+            - name
+            - value
+          ]
+          policyName
+  - Report
+      - @name
+      - @xmls:cm
+      - ReportHost 
+        [
+          - @name
+          - HostProperties
+            - tags
+            [
+              - #text
+              - @name
+            ]
+          - ReportItem
+          [
+            - @pluginID
+            - @pluginName
+            - @port
+            - @protocol
+            - @severity
+            - @svc_name
+            - agent
+            - always_run
+            - description
+            - fname
+            - plugin_modification_date
+            - plugin_name
+            - plugin_output
+            - plugin_publication_date
+            - plugin_type
+            - risk_factor
+            - script_version
+            - solution
+            - synopsis  
+          ]
+        ]
+```
 ### Additional libraries 
 
 + utils, credentials, elastic
