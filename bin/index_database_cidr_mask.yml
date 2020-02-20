@@ -1,0 +1,36 @@
+POST database_cidr_mask
+{
+  "aliases": {},
+  "mappings": {
+    "properties": {
+      "cidr_mask": {
+        "type": "keyword"
+      },
+      "red": {
+        "type": "keyword"
+      },
+      "sede": {
+        "type": "keyword"
+      },
+      "servicio": {
+        "type": "keyword"
+      },
+      "vlan_user": {
+        "type": "long"
+      }
+    }
+  },
+  "settings": {
+    "index": {
+      "routing": {
+        "allocation": {
+          "require": {
+            "data": "hot"
+          }
+        }
+      },
+      "number_of_shards": "0",
+      "number_of_replicas": "1"
+    }
+  }
+}
