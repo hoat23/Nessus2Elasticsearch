@@ -1,0 +1,5 @@
+sede,vlan_user,servicio,red,cidr_mask
+SEDE 01,104,Data,SUB RED 01,172.25.6.0/23
+SEDE 01,105,Wifi,SUB RED 02,172.25.8.0/23
+SEDE 02,106,Mobile,SUB RED 01,172.25.10.0/23
+SEDE 02,409,Data,SUB RED 02,172.25.174.0/23
