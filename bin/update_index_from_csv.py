@@ -82,8 +82,8 @@ def update_by_query(index_name , full_path_file, name_field_elk, name_field_csv,
 
 if __name__ == "__main__":    
     """
-    - index_database_of_ips          - [field: "server_ip"]
-    - index_data_to_add_by_cidr_mask - [field: "cidr_mask"]
+    - Field_from_index  - [field: "HostProperties.netbios-name.keyword"]
+    - Field_from_csv    - [field: "directory_name"]
     """
     index_name = "nessus-xml-*"
     path_file = ".\data\CLIENTE\EnriquecidoEquiposClienteUsandoExcel.csv"
