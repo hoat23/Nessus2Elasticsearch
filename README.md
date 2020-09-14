@@ -148,7 +148,40 @@ NessusClientData_v2
 ### Data Visualization in Kibana
 
 <div align="center">
-<img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_01.png" width="200" align="center"/>
+<img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_01.png" width="400" align="center"/>
+</div>
+
+
+<div align="center">
+<img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_02.png" width="400" align="center"/>
+</div>
+
+<div align="center">
+<img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_03.png" width="400" align="center"/>
+</div>
+
+
+<div align="center">
+<img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_04.png" width="400" align="center"/>
+</div>
+
+<div align="center">
+<img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_05.png" width="400" align="center"/>
+</div>
+
+
+<div align="center">
+<img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_06.png" width="400" align="center"/>
+</div>
+
+
+<div align="center">
+<img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_07.png" width="400" align="center"/>
+</div>
+
+
+<div align="center">
+<img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_08.png" width="400" align="center"/>
 </div>
 
 ### Additional libraries 
