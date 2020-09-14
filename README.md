@@ -149,30 +149,30 @@ NessusClientData_v2
 
 <div class="row">
   <div class="column">
-    <img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_01.png" alt="img01" style="width:50%">
+    <img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_01.png" alt="img01" width="400">
   </div>
   <div class="column">
-    <img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_02.png" alt="img02" style="width:50%">
-  </div>
-</div>
-
-
-<div class="row">
-  <div class="column">
-    <img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_03.png" alt="img03" style="width:50%">
-  </div>
-  <div class="column">
-    <img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_04.png" alt="img04" style="width:50%">
+    <img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_02.png" alt="img02" width="400">
   </div>
 </div>
 
 
 <div class="row">
   <div class="column">
-    <img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_05.png" alt="img05" style="width:50%">
+    <img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_03.png" alt="img03" width="400">
   </div>
   <div class="column">
-    <img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_06.png" alt="img06" style="width:50%">
+    <img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_04.png" alt="img04" width="400">
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="column">
+    <img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_05.png" alt="img05" width="400">
+  </div>
+  <div class="column">
+    <img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_06.png" alt="img06" width="400">
   </div>
 </div>
 
