@@ -164,7 +164,7 @@ NessusClientData_v2
 </tbody>
 </table>
 
-<div class="column"><img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_07.png" width="400"></div>
+<div class="column"><img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_07.png" width="600"></div>
 
 ### Additional libraries 
 
