@@ -145,6 +145,12 @@ NessusClientData_v2
           ]
         ]
 ```
+### Data Visualization in Kibana
+
+<div align="center">
+<img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_01.png" width="200" align="center"/>
+</div>
+
 ### Additional libraries 
 
 + utils, credentials, elastic
