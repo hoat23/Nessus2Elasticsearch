@@ -147,38 +147,25 @@ NessusClientData_v2
 ```
 ### Data Visualization in Kibana
 
-<div class="row">
-  <div class="column">
-    <img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_01.png" alt="img01" width="400">
-  </div>
-  <div class="column">
-    <img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_02.png" alt="img02" width="400">
-  </div>
-</div>
-
-
-<div class="row">
-  <div class="column">
-    <img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_03.png" alt="img03" width="400">
-  </div>
-  <div class="column">
-    <img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_04.png" alt="img04" width="400">
-  </div>
-</div>
-
-
-<div class="row">
-  <div class="column">
-    <img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_05.png" alt="img05" width="400">
-  </div>
-  <div class="column">
-    <img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_06.png" alt="img06" width="400">
-  </div>
-</div>
-
-<div align="center">
-<img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_07.png" width="600" align="center"/>
-</div>
+<table>
+<tbody>
+<tr>
+<td><div class="column"><img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_01.png" width="400"></div></td>
+<td><div class="column"><img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_02.png" width="400"></div></td>
+</tr>
+<tr>
+<td><div class="column"><img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_03.png" width="400"></div></td>
+<td><div class="column"><img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_04.png" width="400"></div></td>
+</tr>
+<tr>
+<td><div class="column"><img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_05.png" width="400"></div></td>
+<td><div class="column"><img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_06.png" width="400"></div></td>
+</tr>
+<tr>
+<td><div class="column"><img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_07.png" width="800"></div></td>
+</tr>
+</tbody>
+</table>
 
 ### Additional libraries 
 
