@@ -154,12 +154,12 @@ NessusClientData_v2
 <td><div class="column"><img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_02.png" width="400"></div></td>
 </tr>
 <tr>
-<td><div class="column"><img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_03.png" width="400"></div></td>
-<td><div class="column"><img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_04.png" width="400"></div></td>
-</tr>
-<tr>
 <td><div class="column"><img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_05.png" width="400"></div></td>
 <td><div class="column"><img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_06.png" width="400"></div></td>
+</tr>
+<tr>
+<td><div class="column"><img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_03.png" width="400"></div></td>
+<td><div class="column"><img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_04.png" width="400"></div></td>
 </tr>
 <tr>
 <div class="column"><img src="https://github.com/hoat23/Nessus2Elasticsearch/blob/master/img/img_07.png" width="800"></div>
